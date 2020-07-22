@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap');
+@import 'media';
+@import 'normalize';
+@import 'nav';
+@import 'content';
+@import 'slick-slider';
+
+*,
+*::after,   
+*::before{
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	box-sizing:border-box;
+}
+    
+p{
+	line-height: 2;
+}
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0 auto;
+}
+h1,h2{
+    font-size: 1.6em;
+    color: #fff;
+}
+h3,h4{
+    font-size: 1.2em;
+    color: #fff;
+}
+
+h5,h6{
+    font-size: 1.0em;
+}
+
+
+p,a,qoute,span,blockquote{
+    font-size: 1.2em;
+    color: #d4cdcdee !important;
+}
+
+#___gatsby{
+    background: linear-gradient(180deg, #000000d9 0, #353535);
+}
+
+p{
+    line-height: 1.7;
+    margin: 1.2em 0 !important;
+}
+
+button{
+    
+    background-color: #b77f40;
+    border: none;
+    padding: 4% 26px;
+    margin-top: 6%;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    a{
+        color: #fff !important;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+
+.two-grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
