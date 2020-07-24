@@ -1,0 +1,126 @@
+
+.author-section{
+
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 4% 0;
+
+    .heading-intro-section{
+        font-weight: 700;
+        font-size: 4em;
+        &:after{
+            content: '';
+            position: absolute;
+            height: 1px;
+            width: 12%;
+            display: block;
+            background: #f7e9e959;
+            margin: 12px 0;
+        }
+    }
+}
+
+.author-content-img{
+    // height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15% 0;
+
+    img{
+        display: flex;
+        height: 60%;
+        width: 55%;
+        border-radius: 50%;
+        border: 2rem solid #eeeeee0f;
+    }
+}
+
+#non-front-pages{
+    height: 100%;
+}
+
+
+.author-marks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 7% 15%;
+
+    h1{
+        font-family:"augusta-free";
+        font-size: 5rem;
+        color:#fff;
+        margin: 29px 0;
+
+        &:after{
+            
+        }
+        
+    }
+
+    h5{
+        color: #4c6e88;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+    }
+
+    span{
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        font-size: 12px;
+        color: #656f77 !important;
+    }
+}
+
+.grid-two-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .book-image-container{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+.booklinkBlocks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1.2rem;
+
+    span {
+        margin:  0;
+    }
+
+    li{
+        padding: 0 3px;
+        list-style-type: none;
+        a{
+        
+            text-decoration: none;
+            padding: 3px 12px;
+            background: #353a3f;
+            font-size: 12px;
+
+        }
+    }
+}
+
+.book-info-ft{
+    margin-bottom: 9%;
+}
+
+.span-title-ft{
+    font-size: 17px;
+    color: #496175 !important;
+}
+
+.contentBook{
+    h1{
+        font-size: 3em;
+    }
+}

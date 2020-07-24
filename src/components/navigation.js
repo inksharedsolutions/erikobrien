@@ -17,12 +17,12 @@ const Navigation = () =>{
 	let Listed = pages.map((e, i) =>{
  		
 		var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
-        const filterUrl = (newUrl === 'home') ? '/' : newUrl;
+        const filterUrl = (newUrl === 'home') ? '/' : `/${newUrl}`;
         const fNum =  i==0? 'f-num-list' : '';
         const nwList = e.replace(/[/-]/g," ").trim();
 
 		return (
-			<li>
+			<li key={i}>
 				<Link 
 					to={filterUrl}>
                          {nwList}    

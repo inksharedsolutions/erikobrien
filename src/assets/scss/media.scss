@@ -43,7 +43,7 @@
     }
 
     #non-active-hamburger{
-        display: block;
+        display: flex !important;
     }
 
     .body-book-contents-wrapper{
@@ -53,6 +53,22 @@
         align-items: center;
         justify-content: center;
     }
+
+    .grid-author-content{
+        grid-template-columns: auto;
+        margin: 0 10%;
+    }
+    
+    .book-info-ft,
+    .columns-grid-parent{
+        grid-template-columns: auto !important;
+    }
+
+    #book--containers,
+    #contact--form-containers{
+        margin: 0 10%;
+    }
+
 }
 
 

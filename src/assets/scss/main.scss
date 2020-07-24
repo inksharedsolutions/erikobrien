@@ -71,3 +71,13 @@ button{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+
+/*Font Face*/
+
+@font-face {
+    font-family:"augusta-free"; /*a name to be used later*/
+    src: url("../../../static/fonts/august_free_bold.ttf") format('truetype'); /*URL to font*/
+    // font-weight: normal;
+}
+
