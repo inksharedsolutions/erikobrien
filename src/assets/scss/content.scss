@@ -80,3 +80,28 @@
     margin: 8% auto;
     overflow: hidden;
 }
+
+.animaton-entrance{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: #0b1823;
+    z-index: 999;
+    width: 0%;
+    animation: linear-intro-backwards 2.5s cubic-bezier(0.19,1,0.22,1) backwards;
+    animation-delay: 0.5s;
+}
+
+
+
+@keyframes  linear-intro-backwards {
+    0%{
+        width: 100%;
+    }
+  
+    100%{
+        width: 0%;
+    }
+}
+
+

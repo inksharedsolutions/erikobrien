@@ -25,6 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <div className="animaton-entrance"></div>
       <Header siteTitle={data.site.siteMetadata.title} />
 
       <main>

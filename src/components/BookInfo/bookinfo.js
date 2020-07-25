@@ -5,7 +5,7 @@ const BookInfo = (props) =>{
     return(
         <div className="grid-two-columns book-info-ft">
             <div 
-                className="child-grid" 
+                className="child-grid img-component-wrapper" 
                 style={props.data.order ? {order:2}:{}}
             >
                 <div className="book-image-container">
