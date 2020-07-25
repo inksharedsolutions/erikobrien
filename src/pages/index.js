@@ -20,7 +20,7 @@ const IndexPage = () => {
       if( sliderState === 1){
           return {background : 'radial-gradient(50% 50% at 50% 50%, rgb(53, 27, 4) 0%, rgb(19 13 2) 100%)'}
       }else if ( sliderState === 2){
-          return {background : 'radial-gradient(50% 50% at 50% 50%, #26473c 0%, #141C22 100%)'}
+          return {background : 'radial-gradient(50% 50% at 50% 50%, rgb(35 47 43) 0%, rgb(20, 28, 34) 100%)'}
       }
   }
 

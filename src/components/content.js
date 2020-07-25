@@ -11,7 +11,6 @@ const Content = (props) =>{
 
     const [slideState, _sF] = useState(3);
 
-
     useEffect(()=>{
         props.activeSlide(slideState);
     },[slideState])
