@@ -1,5 +1,6 @@
 import React,{useState, useRef} from 'react'
 import {Link} from 'gatsby'
+import Logo from '../../static/logo/main_logo.png'
 
 
 const Navigation = () =>{
@@ -29,7 +30,7 @@ const Navigation = () =>{
 				</Link>	
 			</li>
 		)
-    })
+    })          
     
     const onClickEvent = (e) =>{
         setToggled(!toggled);
@@ -41,7 +42,7 @@ const Navigation = () =>{
             <nav className="navigation">
                 <div className="two-grid-layout" id="desktop-nav">
                     <div className="author-logo">
-                        <img src={``}/>
+                        <img src={Logo}/>
                     </div>
 
                     <div className="navlist">
