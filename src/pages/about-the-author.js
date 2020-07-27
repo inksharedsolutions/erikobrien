@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from "../components/layout"
+import Footer from "../components/footer"
 import AuthorImg from '../../static/author/author.png'
 
 
@@ -7,7 +8,7 @@ const ATA = (props) =>{
 
     return (
         <>
-            <main class="body-wrapper" id="non-front-pages">
+            <main className="body-wrapper" id="non-front-pages">
                 <Layout>
                     <section className="author-section">
 
@@ -59,6 +60,7 @@ const ATA = (props) =>{
                         </div>
                     </section>
                 </Layout>
+                <Footer/>
             </main>
         </>
     )

@@ -42,7 +42,9 @@ const Navigation = () =>{
             <nav className="navigation">
                 <div className="two-grid-layout" id="desktop-nav">
                     <div className="author-logo">
-                        <img src={Logo}/>
+                        <Link to="/">
+                            <img src={Logo}/>
+                        </Link>
                     </div>
 
                     <div className="navlist">

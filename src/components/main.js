@@ -25,11 +25,13 @@ const Main = (props) =>{
 
     useEffect(()=>{
         props.childActive(bookState)
- 
-        tl.to(ImgContainer.current , 1, { css : 
-            {visibility : "visible"}})
         
-    },[bookState, ])
+        const imgElem =  ImgContainer.current.querySelectorAll('.img-book-wrapper img');
+
+        tl.to(ImgContainer.current , 1, { css : 
+            {visibility : "visible"}});
+        
+    },[bookState])
 
     const ActiveBook = () =>{
         if(bookState === 1){
@@ -38,7 +40,7 @@ const Main = (props) =>{
             return Book3
         }else if ( bookState === 3){
             return Book2
-        } 
+        }
     }
     
     return(

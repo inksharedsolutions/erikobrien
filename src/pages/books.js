@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from "../components/layout"
 import BookInfo from "../components/BookInfo/bookinfo"
 import { DiscussionEmbed } from "disqus-react"
-
+import Footer from "../components/footer"
 
 /*Images*/
 import Book1 from "../../static/books/1st_book.png"
@@ -23,7 +23,7 @@ const ATB = (props) =>{
 
     return(
         <>
-            <main class="body-wrapper" id="non-front-pages">
+            <main className="body-wrapper" id="non-front-pages">
                 <Layout>
                     <section className="author-section" id="book--containers">
                         <h1 className="heading-intro-section">
@@ -169,6 +169,7 @@ const ATB = (props) =>{
                         
                     </section>
                  </Layout>
+                 <Footer/>
             </main>
         </> 
     )

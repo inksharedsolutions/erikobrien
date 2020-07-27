@@ -2,6 +2,7 @@ import React from 'react'
 import Inputs from '../components/Inputs/inputs'
 import Layout from '../components/layout'
 import Nav from '../components/navigation'
+import Footer from "../components/footer"
 
 const Contact = (props) =>{
 
@@ -26,7 +27,7 @@ const Contact = (props) =>{
     
     return (
         <>
-            <main class="body-wrapper" id="non-front-pages">
+            <main className="body-wrapper" id="non-front-pages">
                 <Layout>
                     <div className="flex-container-fx">
                         <section class="author-section" id="contact--form-containers">
@@ -115,6 +116,7 @@ const Contact = (props) =>{
                         </section>
                     </div>
                 </Layout>
+                <Footer/>
             </main>
         </>
     )

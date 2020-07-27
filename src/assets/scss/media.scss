@@ -77,7 +77,7 @@
     }
 
     .author-section{
-        margin: 0 10%;
+        margin: 0 10% !important;
     }
 
     .img-component-wrapper{
@@ -86,7 +86,31 @@
     .body-content-elements{
         order:2 !important;
     }
- 
+
+    .footer-grid,
+    #lower-footer{
+        grid-template-columns: auto !important;
+    }
+
+    .footer-nav{
+        padding: 0% !important;
+    }
+
+    .footer-container,
+    .form-newsletter-wrapper{
+        text-align: center;
+    }
+
+    .social-media-nav{
+        ul{
+            text-align: center !important;
+            max-width: 100% !important;
+        }
+    }
+
+    #metalinks-footer{
+        margin-top: 31px;
+    }
 }
 
 
