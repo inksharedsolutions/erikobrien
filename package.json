@@ -21,6 +21,7 @@
     "gatsby-transformer-remark": "^2.8.27",
     "gatsby-transformer-sharp": "^2.5.7",
     "gsap": "^3.4.2",
+    "html-react-parser": "^0.13.0",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
