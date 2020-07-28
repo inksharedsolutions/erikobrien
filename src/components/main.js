@@ -28,7 +28,7 @@ const Main = (props) =>{
         
         const imgElem =  ImgContainer.current.querySelectorAll('.img-book-wrapper img');
 
-        tl.to(ImgContainer.current , 1, { css : 
+        tl.to(imgElem, 1, { css : 
             {visibility : "visible"}});
         
     },[bookState])
