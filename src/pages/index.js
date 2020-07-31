@@ -3,8 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Main from "../components/main"
-import Image from "../components/image"
-import SEO from "../components/seo"
+
 
 const IndexPage = () => {
   const [sliderState, _pS] = useState();

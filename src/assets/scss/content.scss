@@ -12,12 +12,12 @@
         &:nth-child(1){
 
             .img-book-wrapper{
-                visibility:  hidden;
                 img{
                     margin: 0;
                     position: relative;
                     z-index: 10;
                     max-width: 100%;
+                    visibility:  hidden;
                 }
             }
 

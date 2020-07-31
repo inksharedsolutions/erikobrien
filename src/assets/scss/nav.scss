@@ -17,6 +17,13 @@
                 font-size: 15px;
                 text-decoration: none;
                 margin: 0 12px;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #ffff !important;
+
+                [aria-current="page"]{
+                    color: #fbb266 !important;
+                }
             }
         }
      }

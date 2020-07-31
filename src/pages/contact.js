@@ -7,7 +7,6 @@ import Footer from "../components/footer"
 const Contact = (props) =>{
 
 	function OnSubmitForm (e) {
-
 	    e.preventDefault();
         const form = e.target;
         const data = new FormData(form);

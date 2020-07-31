@@ -20,7 +20,7 @@ const Content = (props) =>{
         if( slideState === 1){
            return ( <BookContentsTitle 
                 title={`Kur's Rage`}
-                spnTitle={`Part 1 of the Duaredheim Staff`}
+                spnTitle={`Part 1 of the Duaredheim Staff Saga`}
                 content={`Stand on the parapets of Highcrest Garrison 
                 as the characters prepare for battle against a demon 
                 lord and his fiendish minions.`}
