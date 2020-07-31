@@ -25,11 +25,7 @@ const Main = (props) =>{
 
     useEffect(()=>{
         props.childActive(bookState)
-        
-        const imgElem =  ImgContainer.current.querySelectorAll('.img-book-wrapper img');
-
-        tl.to(imgElem, 1, { css : 
-            {visibility : "visible"}});
+    
         
     },[bookState])
 
