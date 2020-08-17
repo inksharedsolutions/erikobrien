@@ -57,11 +57,11 @@
 
 .slick-prev:before{
     position: relative;
-    left: -31px;
+    left: 27px;
 }
 
 .slick-next{
-    right: -2px !important;
+    right: 45px !important;
 }
 
 .slick-prev, .slick-next{
@@ -74,9 +74,6 @@
     left: 0 !important;
 }
 
-.slick-next{
-    right: 15px !important;
-}
 
 .slick-track{
     display: flex !important;
@@ -84,7 +81,8 @@
 }
 
 .slick-list{
-    width: 700px;
+    overflow: unset !important;
+    // width: 700px;
 }
 
 

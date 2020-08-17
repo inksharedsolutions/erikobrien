@@ -31,6 +31,12 @@
             }
             
         }
+        
+        &:nth-child(2){
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
     }
 }
 

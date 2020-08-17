@@ -1,4 +1,4 @@
-import React,{useState, useRef} from 'react'
+import React,{useState} from 'react'
 import {Link} from 'gatsby'
 import Logo from '../../static/logo/main_logo.png'
 

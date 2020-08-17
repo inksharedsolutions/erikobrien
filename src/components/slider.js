@@ -12,7 +12,7 @@ import Book3 from '../../static/front_covers/book_3.jpg'
 
 const SliderComponent = (props) =>{
 
-    const [mobState, __functState] = useState(false);
+    const [mobState, __functState] = useState();
     const [sliderNum , sliderState] = useState(3);
 
 
@@ -20,21 +20,24 @@ const SliderComponent = (props) =>{
         dots: false, 
         infinite: true,
         speed: 1500,
-        slidesToShow: 1,
+        slidesToShow: mobState ? 1 : 3,
         slidesToScroll:1,
     };
 
     
     useEffect(() => {
-        
+
+
         window.addEventListener("resize", ()=>{ 
             __functState(window.innerWidth <= 760);
+
+            console.log( window.innerWidth <= 760 );
         });
 
         /*Slider Action*/
         props.currentSlide(sliderNum);
         
-    },[mobState, sliderNum]); 
+    },[mobState, sliderNum]);
     
 
     const onClickEvent=(num) =>{ 
@@ -46,6 +49,13 @@ const SliderComponent = (props) =>{
         <>
 
             <Slider {...settings}>
+
+                <div className="book-wrapper-slider"
+                    onClick={()=>onClickEvent(1)}>
+                    <span>01</span>
+                    <img src={Book3}/>
+                </div>
+
               
                 <div className="book-wrapper-slider"
                     onClick={()=>onClickEvent(2)}>
@@ -59,33 +69,10 @@ const SliderComponent = (props) =>{
                     <img src={Book1}/>
                 </div>
 
-                <div className="book-wrapper-slider"
-                    onClick={()=>onClickEvent(1)}>
-                    <span>01</span>
-                    <img src={Book3}/>
-                </div>
+        
                 
-                     
-                <div className="book-wrapper-slider"
-                    onClick={()=>onClickEvent(2)}>
-                    <span>02</span>
-                    <img src={Book2}/>
-                </div>
-
-                <div className="book-wrapper-slider"
-                    onClick={()=>onClickEvent(3)}>
-                    <span>03</span>
-                    <img src={Book1}/>
-                </div>
-
-                <div className="book-wrapper-slider"
-                    onClick={()=>onClickEvent(1)}>
-                    <span>01</span>
-                    <img src={Book3}/>
-                </div>
-
             </Slider>
-    
+
         </>     
     )
 }

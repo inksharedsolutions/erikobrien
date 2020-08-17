@@ -38,8 +38,8 @@ const ATA = (props) =>{
                                     </p>
                                     <p>
                                         Returning home, he continued his education 
-                                        in Creative Writing at Emerson College. 
-                                        A lifetime practitioner of martial arts, 
+                                        in Creative Writing at Emerson College.
+                                        A lifetime practitioner of martial arts,
                                         his other hobbies include illustration and 
                                         a love of the outdoors.  Kur’s Rage, Part 1 
                                         of the Duaredheim Staff Saga begins the grand 

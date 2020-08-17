@@ -25,8 +25,7 @@ const Main = (props) =>{
 
     useEffect(()=>{
         props.childActive(bookState)
-    
-        
+
     },[bookState])
 
     const ActiveBook = () =>{
