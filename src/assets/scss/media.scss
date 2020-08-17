@@ -125,6 +125,15 @@
         max-width: 450px !important;
         overflow: unset !important;
     }
+
+    .grid-parent-blog{
+        grid-template-columns: auto;
+
+        .blog-num{
+            display: none;
+        }
+    }
+
     .booklinkBlocks{
         flex-direction: column !important;
         span{
@@ -140,6 +149,14 @@
             margin: 2% 0 !important;
             padding: 10px;
             padding: 3% 0 !important;
+        }
+    }
+
+    .grid-parent-blog{
+        .blog-body{
+            h1{
+                font-size: 1rem;
+            }
         }
     }
 
