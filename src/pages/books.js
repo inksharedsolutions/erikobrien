@@ -81,7 +81,6 @@ const ATB = (props) =>{
                                 }}
                             />
 
-
                          <BookInfo  
                                 data={{
                                 title:`The Drums of Doom`,
