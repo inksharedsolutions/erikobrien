@@ -25,7 +25,7 @@ const Footer  = () =>{
                     <nav className="social-media-nav">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/larry.ellerbee.5"
+                                <a href="https://www.facebook.com/StrattonMountain/"
                                 target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
@@ -57,10 +57,11 @@ const Footer  = () =>{
                             <li>
                                 <a 
                                     target="_blank"
-                                    href="https://www.goodreads.com/book/show/50991530-10-guidelines-on-how-to-receive-from-god">
+                                    href="https://www.goodreads.com/author/show/3220904.Erik_D_J_O_Brien">
                                     <FontAwesomeIcon 
                                         className='font-awesome'
-                                        icon={faGoodreads} />
+                                        icon={faGoodreads}
+                                    />
                                 </a>
                             </li>
 
@@ -108,7 +109,7 @@ const Footer  = () =>{
                     </li>
 
                     <li>
-                        <Link to="/terms-and-conditions">Terms & Condition</Link>
+                        <Link to="/terms-and-conditions">Terms & Conditions</Link>
                     </li>
                 </ul>
             </div>

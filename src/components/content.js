@@ -33,7 +33,7 @@ const Content = (props) =>{
                 spnTitle={`Part 2 of the Duaredheim Staff Saga`}
                 content={`The second part of Erik D. J. O’Brien’s The Duaredheim Staff Saga 
                 contains excerpts from the Chronicles of Olak Tempestus, 
-                which describes in detail the actions and plans`}
+                which describes in detail the actions and plans.`}
                 srcLink={`/books#book2`}
             />
            )
@@ -43,7 +43,7 @@ const Content = (props) =>{
                 spnTitle={`Part 3 of th Duareheim Staff Saga`}
                 content={`This prequel to Kur’s Rage is part 3 of The Duaredheim Staff 
                 Saga and portrays the final adventures of the 11th Fleet and 
-                their last admiral`}
+                their last admiral.`}
                 srcLink={`/books#book3`}
             />
            )

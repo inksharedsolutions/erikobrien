@@ -16,7 +16,7 @@ const ATB = (props) =>{
     const slug =(props.location.href);
 
 	const disqusConfig = {
-	  shortname: 'penny-mccoy',
+	  shortname: 'erik-obrien',
 	  config: { identifier:  12, slug}
     }
     
@@ -117,7 +117,7 @@ const ATB = (props) =>{
                                     amazon:'https://www.amazon.com/Drums-Doom-Part-Duaredheim-Staff-ebook/dp/B07XSNZHLV/ref=sr_1_2?dchild=1&keywords=erik+obrien&qid=1595481431&sr=8-2', 
                                 },
                                 paperback:{
-                                    amazon:'https://www.amazon.com/Drums-Doom-Part-Duaredheim-Staff/dp/1432734962/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1595481431&sr=8-2',
+                                    amazon:'',
                                     barnes:'https://www.barnesandnoble.com/w/the-drums-of-doom-erik-d-j-obrien/1133208530?ean=9781643455037',
                                     booksamillion:'https://www.booksamillion.com/p/Drums-Doom/Erik-D-J-OBrien/9781643455037?id=7954811514842',
                                 }
@@ -155,7 +155,7 @@ const ATB = (props) =>{
                                     },
                                     paperback:{
                                         amazon:'https://www.amazon.com/Last-Admiral-Part-Duaredheim-Staff/dp/1643454439/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1595481673&sr=8-3',
-                                        barnes:'https://www.barnesandnoble.com/w/from-an-out-house-to-the-white-house-hal-davis/1136867362?ean=9781648950155',
+                                        barnes:'https://www.barnesandnoble.com/w/the-drums-of-doom-erik-d-j-obrien/1133208530?ean=9781643455037',
                                         booksamillion:'https://www.booksamillion.com/p/Last-Admiral/Erik-D-J-OBrien/9781643454436?id=7954811514842',
                                     }
                                 }}
