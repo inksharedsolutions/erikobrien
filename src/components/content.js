@@ -65,19 +65,17 @@ const Content = (props) =>{
         <>
             <section className="body-book-contents-wrapper">
                 <div className="heading-contents">
-                
-                {
-                   (
-                       <CurrentContent/>
-                   )
-                }
-
+                    {
+                       (
+                           <CurrentContent/>
+                       )
+                    }
                 </div>
 
                  <div className="content-slider-wrapper">
                     <SliderCover currentSlide={(e)=> _sF(e)}/>
                  </div>
-                 
+
             </section>
         </>
     )
