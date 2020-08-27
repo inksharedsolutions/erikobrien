@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Book1 from '../../static/front_covers/book_1.jpg'
 import Book2 from '../../static/front_covers/book_2.jpg'
 import Book3 from '../../static/front_covers/book_3.jpg'
+import Book4 from '../../static/front_covers/book_4.jpg'
 
 const SliderComponent = (props) =>{
 
@@ -55,7 +56,6 @@ const SliderComponent = (props) =>{
                     <span>01</span>
                     <img src={Book3}/>
                 </div>
-
               
                 <div className="book-wrapper-slider"
                     onClick={()=>onClickEvent(2)}>
@@ -69,6 +69,11 @@ const SliderComponent = (props) =>{
                     <img src={Book1}/>
                 </div>
 
+                 <div className="book-wrapper-slider"
+                    onClick={()=>onClickEvent(4)}>
+                    <span>04</span>
+                    <img src={Book4}/>
+                </div>
         
                 
             </Slider>

@@ -46,9 +46,21 @@ const Content = (props) =>{
             />
            )
         }
+
+        else if (slideState === 4){
+            return ( <BookContentsTitle 
+                title={`The Ice Moon`}
+                spnTitle={`Part 4 of th Duareheim Staff Saga`}
+                content={`The Ice Moon, Part 4 of The Duaredheim Staff
+                 Saga portrays their subsequent encounter with their nemesis,
+                 and the adventures that bring them to their final confrontation
+                 with Queen Aphra and the armies of Dragonia`}
+                srcLink={`/books#book3`}
+            />
+           )
+        }
     }
 
-    
     return(
         <>
             <section className="body-book-contents-wrapper">
@@ -65,6 +77,7 @@ const Content = (props) =>{
                  <div className="content-slider-wrapper">
                     <SliderCover currentSlide={(e)=> _sF(e)}/>
                  </div>
+                 
             </section>
         </>
     )

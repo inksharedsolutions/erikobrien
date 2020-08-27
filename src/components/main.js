@@ -6,6 +6,7 @@ import Content from './content'
 import Book1 from '../../static/books/2nd_book.png'
 import Book2 from '../../static/books/1st_book.png'
 import Book3 from '../../static/books/3rd_book.png'
+import Book4 from '../../static/books/4th_book.png'
 
 
 /*GSAP*/
@@ -36,17 +37,19 @@ const Main = (props) =>{
         }else if ( bookState === 3){
             return Book2
         }
-    }
-    
+        else if ( bookState === 4){
+            return Book4
+        }
+    } 
+        
     return(
         <>
             <section className="two-body-grid">
                 <div className="tw-child-grid">
-
                     <div 
                         ref={ImgContainer} 
                         className="img-book-wrapper">
-                        <img    
+                        <img 
                             src={ActiveBook()} 
                             alt="book-display"
                         />
@@ -56,6 +59,7 @@ const Main = (props) =>{
                 <div className="tw-child-grid">
                     <Content activeSlide={(item)=>__bF(item)}/>
                 </div>
+
             </section>
         </>
     )
