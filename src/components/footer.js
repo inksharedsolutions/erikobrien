@@ -25,7 +25,7 @@ const Footer  = () =>{
                     <nav className="social-media-nav">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/StrattonMountain/"
+                                <a href=""
                                 target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
@@ -36,7 +36,7 @@ const Footer  = () =>{
                             <li>
                                 <a 
                                     target="_blank"
-                                    href="https://twitter.com/receivegodsbest">
+                                    href="https://twitter.com/StrattonPress">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faTwitter} />

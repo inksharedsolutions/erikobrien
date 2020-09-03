@@ -34,7 +34,7 @@ const Content = (props) =>{
                 which describes in detail the actions and plans.`}
                 srcLink={`/books#book2`}
             />
-           )
+          ) 
         }else if (slideState === 3){
             return ( <BookContentsTitle 
                 title={`The Last Admiral`}
@@ -48,7 +48,7 @@ const Content = (props) =>{
         }
 
         else if (slideState === 4){
-            return ( <BookContentsTitle 
+            return ( <BookContentsTitle
                 title={`The Ice Moon`}
                 spnTitle={`Part 4 of th Duareheim Staff Saga`}
                 content={`The Ice Moon, Part 4 of The Duaredheim Staff
@@ -56,7 +56,7 @@ const Content = (props) =>{
                  and the adventures that bring them to their final confrontation
                  with Queen Aphra and the armies of Dragonia`}
                 srcLink={`/books#book3`}
-            />
+             />
            )
         }
     }
