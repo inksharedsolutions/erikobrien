@@ -18,7 +18,7 @@ const Footer  = () =>{
                         </h1>
                         <p>
                             Erik D. J. O’Brien loves to hear from readers. You can reach him via email. 
-                            Feel free to send questions about writing, him works, interviews 
+                            Feel free to send questions about writing, his works, interviews 
                             and other publicity matters.
                         </p> 
                         
@@ -30,7 +30,7 @@ const Footer  = () =>{
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faFacebook} />
-                                </a>
+                                </a> 
                             </li>
 
                             <li>

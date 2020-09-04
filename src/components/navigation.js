@@ -49,9 +49,7 @@ const Navigation = () =>{
 
                     <div className="navlist">
                         <ul>
-                            {
-                                Listed
-                            }
+                            {Listed}
                         </ul>
                     </div>
                 </div>
@@ -73,14 +71,11 @@ const Navigation = () =>{
 
 
                     <ul>
-
                         <p className="list-label">
                             Navigations.
                         </p>
 
-                        {
-                            Listed
-                        }
+                        {Listed}
 
                     </ul>
                 </section> 

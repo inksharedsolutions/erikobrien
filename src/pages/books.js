@@ -8,6 +8,7 @@ import Footer from "../components/footer"
 import Book1 from "../../static/books/1st_book.png"
 import Book2 from "../../static/books/2nd_book.png"
 import Book3 from "../../static/books/3rd_book.png"
+import Book4 from "../../static/books/4th_book.png"
 
 
 const ATB = (props) =>{
@@ -26,6 +27,7 @@ const ATB = (props) =>{
             <main className="body-wrapper" id="non-front-pages">
                 <Layout>
                     <section className="author-section" id="book--containers">
+
                         <h1 className="heading-intro-section">
                             Featured Books
                         </h1>
@@ -34,7 +36,7 @@ const ATB = (props) =>{
                             <BookInfo  
                             data={{
                                     title:`Kur's Rage`,
-                                    spanTitle: 'Part 1 of the Duaredheim Staff',
+                                    spanTitle: 'Part 1 of the Duaredheim Staff Saga',
                                     imgSrc: Book2,
                                     order:false,
                                     content:
@@ -116,7 +118,7 @@ const ATB = (props) =>{
                                     amazon:'https://www.amazon.com/Drums-Doom-Part-Duaredheim-Staff-ebook/dp/B07XSNZHLV/ref=sr_1_2?dchild=1&keywords=erik+obrien&qid=1595481431&sr=8-2', 
                                 },
                                 paperback:{
-                                    amazon:'',
+                                    amazon:'https://www.amazon.com/Drums-Doom-Part-Duaredheim-Staff/dp/1643455036/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1595481431&sr=8-2',
                                     barnes:'https://www.barnesandnoble.com/w/the-drums-of-doom-erik-d-j-obrien/1133208530?ean=9781643455037',
                                     booksamillion:'https://www.booksamillion.com/p/Drums-Doom/Erik-D-J-OBrien/9781643455037?id=7954811514842',
                                 }
@@ -137,9 +139,9 @@ const ATB = (props) =>{
                                         letter calling him off to war. Feel his sorrow as he says farewell
                                         and leads his armada on a desperate mission. Travel the Underearth
                                         with Vlad and Darik as they must journey in secret to the academy
-                                        in order to thwart a deadly assassin. Do battle with Raythe, the 
-                                        mysterious butler, and Phu as they struggle against Rak Shasa, 
-                                        a demonic entity, and the diabolical Caretakers of the Abyss. 
+                                        in order to thwart a deadly assassin. Do battle with Raythe, the
+                                        mysterious butler, and Phu as they struggle against Rak Shasa,
+                                        a demonic entity, and the diabolical Caretakers of the Abyss.
                                         Prepare yourself for what may be the longest fantasy naval battle
                                         ever written. This epic struggle introduces the terrible general
                                         Jing Jang Lo and the ruthless forces of the Dragonian Queen as 
@@ -149,16 +151,55 @@ const ATB = (props) =>{
 
                                     ebooks:{
                                         stratton: 'https://www.stratton-press.com/books/the-last-admiral-part-3-of-the-duaredheim-staff-saga/',
-                                        barnes: 'https://www.barnesandnoble.com/w/the-drums-of-doom-erik-d-j-obrien/1133208530?ean=9781643457390',
+                                        barnes: 'https://www.barnesandnoble.com/w/the-last-admiral-erik-d-j-obrien/1123607884?ean=9781643454436',
                                         amazon:'https://www.amazon.com/Last-Admiral-Part-Duaredheim-Staff-ebook/dp/B081K9H7B7/ref=sr_1_3?dchild=1&keywords=erik+obrien&qid=1595481673&sr=8-3', 
                                     },
                                     paperback:{
                                         amazon:'https://www.amazon.com/Last-Admiral-Part-Duaredheim-Staff/dp/1643454439/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1595481673&sr=8-3',
-                                        barnes:'https://www.barnesandnoble.com/w/the-drums-of-doom-erik-d-j-obrien/1133208530?ean=9781643455037',
+                                        barnes:'https://www.barnesandnoble.com/w/the-last-admiral-erik-d-j-obrien/1123607884?ean=9781643457604',
                                         booksamillion:'https://www.booksamillion.com/p/Last-Admiral/Erik-D-J-OBrien/9781643454436?id=7954811514842',
                                     }
                                 }}
                             />
+
+
+                            <BookInfo  
+                                data={{
+                                title:`The Ice Moon`,
+                                spanTitle: 'Part 4 of the Duaredheim Staff Saga',
+                                imgSrc: Book4,
+                                order:true,
+                                content:
+                                `
+                                    <p>
+                                      This epic conclusion to The Duaredheim Staff Saga begins with
+                                      a detailed retelling of Prince Loren’s tragic last stand upon
+                                      the hilltop Korun-Dorr and the story of Carmen’s Rangers harrowing
+                                      escape from the Underearth. The Ice Moon, Part 4 of The Duaredheim
+                                      Staff Saga portrays their subsequent encounter with their nemesis,
+                                      and the adventures that bring them to their final confrontation with
+                                      Queen Aphra and the armies of Dragonia. Fly with Carmen’s Rangers
+                                      as they rocket towards the Ice Moon upon the Star Vessel Imperium.
+                                    </p>
+
+                                    <p>     
+                                      Fight beside them as they face the White Wyrms of the surface
+                                      and confront their diabolical leader in search of the Circlet
+                                      of the Staff. March with the Kings of Safehaven as they assemble
+                                      their forces in defense of their homeland. Stand with Vlad, Carmen’s
+                                      Rangers and their unlikely allies as the armies of Fermenor face off
+                                      against the largest military force ever assembled by Dragonia.
+                                      Feel their anguish in the heat of battle when all seems lost and
+                                      only a long forgotten force from the sea can save them. The Ice Moon,
+                                      Part 4 of The Duaredheim Staff Saga concludes the series, which began
+                                      with Kur’s Rage, The Drums of Doom, and The Last Admiral.
+                                    </p>
+                                `,
+
+                                ebooks:{},
+                                paperback:{}
+                            }}
+                         />
 
                         </section>
 
