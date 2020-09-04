@@ -165,4 +165,17 @@
         font-size: 1.5em;
     }
 
+    .author-content-img{
+        &:after{
+            content: '';
+            position: absolute;
+            height: 302px;
+            width: 65%;
+            display: block;
+            background: #4d95cd2e;
+            margin: 12px 0;
+            transform: translateY(12px);
+        }
+    }
+
 }

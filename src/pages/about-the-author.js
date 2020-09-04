@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from "../components/layout"
 import Footer from "../components/footer"
-import AuthorImg from '../../static/author/author.png'
+import AuthorImg from '../../static/author/main_author.png'
 
 
 const ATA = (props) =>{
