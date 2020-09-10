@@ -38,7 +38,7 @@ const Content = (props) =>{
         }else if (slideState === 3){
             return ( <BookContentsTitle 
                 title={`The Last Admiral`}
-                spnTitle={`Part 3 of their Duareheim Staff Saga`}
+                spnTitle={`Part 3 of the Duareheim Staff Sag`}
                 content={`This prequel to Kur’s Rage is part 3 of The Duaredheim Staff 
                 Saga and portrays the final adventures of the 11th Fleet and 
                 their last admiral.`}
