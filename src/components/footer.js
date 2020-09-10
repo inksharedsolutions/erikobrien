@@ -46,7 +46,7 @@ const Footer  = () =>{
                             <li>
                                 <a  
                                     target="_blank"
-                                    href="https://www.instagram.com/larryellerbee910/">
+                                    href="https://www.instagram.com/strattonpress/">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faInstagram} />

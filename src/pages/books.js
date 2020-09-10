@@ -151,12 +151,12 @@ const ATB = (props) =>{
 
                                     ebooks:{
                                         stratton: 'https://www.stratton-press.com/books/the-last-admiral-part-3-of-the-duaredheim-staff-saga/',
-                                        barnes: 'https://www.barnesandnoble.com/w/the-last-admiral-erik-d-j-obrien/1123607884?ean=9781643454436',
+                                        barnes: 'https://www.barnesandnoble.com/w/the-last-admiral-erik-d-j-obrien/1123607884?ean=9781643457604',
                                         amazon:'https://www.amazon.com/Last-Admiral-Part-Duaredheim-Staff-ebook/dp/B081K9H7B7/ref=sr_1_3?dchild=1&keywords=erik+obrien&qid=1595481673&sr=8-3', 
                                     },
                                     paperback:{
                                         amazon:'https://www.amazon.com/Last-Admiral-Part-Duaredheim-Staff/dp/1643454439/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1595481673&sr=8-3',
-                                        barnes:'https://www.barnesandnoble.com/w/the-last-admiral-erik-d-j-obrien/1123607884?ean=9781643457604',
+                                        barnes:'https://www.barnesandnoble.com/w/the-last-admiral-erik-d-j-obrien/1123607884?ean=9781643454436',
                                         booksamillion:'https://www.booksamillion.com/p/Last-Admiral/Erik-D-J-OBrien/9781643454436?id=7954811514842',
                                     }
                                 }}
@@ -165,7 +165,7 @@ const ATB = (props) =>{
 
                             <BookInfo  
                                 data={{
-                                title:`The Ice Moon`,
+                                title:`The Ice Moon`,   
                                 spanTitle: 'Part 4 of the Duaredheim Staff Saga',
                                 imgSrc: Book4,
                                 order:true,
