@@ -25,7 +25,7 @@ const Footer  = () =>{
                     <nav className="social-media-nav">
                         <ul>
                             <li>
-                                <a  href="https://www.facebook.com/StrattonPressInc/"
+                                <a  href="https://www.facebook.com/theduaredheimstaffsagatheicemoon/"
                                     target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
