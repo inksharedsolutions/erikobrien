@@ -71,7 +71,6 @@ const ATB = (props) =>{
                                      `,
 
                                     ebooks:{
-                                        stratton: 'https://www.stratton-press.com/books/kurs-rage-part-1-of-the-duaredheim-staff-saga/',
                                         barnes: 'https://www.barnesandnoble.com/w/kurs-rage-erik-dj-obrien/1133203332?ean=9781643456478',
                                         amazon:'https://www.amazon.com/Kurs-Rage-Part-Duaredheim-Staff-ebook/dp/B07X3Y6DY7/ref=sr_1_1?dchild=1&keywords=erik+obrien&qid=1595480426&sr=8-1', 
                                     },
@@ -113,7 +112,6 @@ const ATB = (props) =>{
                                 </p>`,
 
                                 ebooks:{
-                                    stratton: 'https://www.stratton-press.com/books/the-drums-of-doom-part-2-of-the-duaredheim-staff-saga/',
                                     barnes: 'https://www.barnesandnoble.com/w/the-drums-of-doom-erik-d-j-obrien/1133208530?ean=9781643457390',
                                     amazon:'https://www.amazon.com/Drums-Doom-Part-Duaredheim-Staff-ebook/dp/B07XSNZHLV/ref=sr_1_2?dchild=1&keywords=erik+obrien&qid=1595481431&sr=8-2', 
                                 },
@@ -150,7 +148,6 @@ const ATB = (props) =>{
                                     </p>`,
 
                                     ebooks:{
-                                        stratton: 'https://www.stratton-press.com/books/the-last-admiral-part-3-of-the-duaredheim-staff-saga/',
                                         barnes: 'https://www.barnesandnoble.com/w/the-last-admiral-erik-d-j-obrien/1123607884?ean=9781643457604',
                                         amazon:'https://www.amazon.com/Last-Admiral-Part-Duaredheim-Staff-ebook/dp/B081K9H7B7/ref=sr_1_3?dchild=1&keywords=erik+obrien&qid=1595481673&sr=8-3', 
                                     },
@@ -196,8 +193,15 @@ const ATB = (props) =>{
                                     </p>
                                 `,
 
-                                ebooks:{},
-                                paperback:{}
+                                ebooks:{
+                                    amazon:'https://www.amazon.com/Ice-Moon-Erik-D-J-OBrien-ebook/dp/B08HSP8K6T/',
+                                    barnes:'https://www.barnesandnoble.com/w/the-ice-moon-erik-dj-obrien/1137627228?ean=9781648951596',
+                                },
+                                paperback:{
+                                    amazon:'https://www.amazon.com/Ice-Moon-Part-Duaredheim-Staff/dp/1643454560/',
+                                    barnes:'https://www.barnesandnoble.com/w/the-ice-moon-erik-dj-obrien/1137627228',
+                                    booksamillion:'https://www.booksamillion.com/p/Ice-Moon/Erik-D-J-OBrien/9781643454566',
+                                }
                             }}
                          />
 
