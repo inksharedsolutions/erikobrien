@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import BookInfo from "../components/BookInfo/bookinfo"
 import { DiscussionEmbed } from "disqus-react"
 import Footer from "../components/footer"
+import { Helmet } from 'react-helmet';
 
 /*Images*/
 import Book1 from "../../static/books/1st_book.png"
@@ -24,6 +25,7 @@ const ATB = (props) =>{
 
     return(
         <>
+            <Helmet title="Books | Erik DJ. O'Brien" />
             <main className="body-wrapper" id="non-front-pages">
                 <Layout>
                     <section className="author-section" id="book--containers">

@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Parser from 'html-react-parser';
 import Footer from "../components/footer"
+import { Helmet } from 'react-helmet';
 
 const PP = (props)=>{
 
@@ -26,6 +27,7 @@ const PP = (props)=>{
 
     return(
         <>
+			<Helmet title="Privacy Policy | Erik DJ. O'Brien" />
             <main className="body-wrapper" id="non-front-pages">
                 <Layout>
 					<div className="container" id="off-shore-pages">

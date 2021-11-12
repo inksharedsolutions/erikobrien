@@ -1,19 +1,19 @@
 ---
   title: "Privacy Policy"
   date : "5-29-2020"
-  author : "Erik O'Brien"
+  author : "Erik D.J. O'Brien"
 ---
 
 
-Erik O'Brien website is committed to safeguarding and preserving the privacy of our visitors.
+Erik D.J. O'Brien website is committed to safeguarding and preserving the privacy of our visitors.
 
 This Policy explains what happens to any personal data that you provide to us, or that we collect from you whilst you visit our site and how we use cookies on this website.
 
-This Policy from time to time so please do review this Policy regularly.
+This Policy changes from time to time so please do review this Policy regularly.
 
 ##Information That We collect
 
-In running and maintaining our website Erik O'Brien website may collect and process the following data about you:
+In running and maintaining our website Erik D.J. O'Brien website may collect and process the following data about you:
 
 Information about your use of our site including details of your visits such as pages viewed and the resources that you access. Such information includes traffic data, location data and other communication data.
 
@@ -44,11 +44,11 @@ To inform you of any changes to our website, services or goods and products.
 
 If you have previously purchased goods or services from us we may provide to you details of similar goods or services, or other goods and services, that you may be interested in.
 
-We never give your details to third parties to use your data to enable them to provide you with information regarding Erik O'Brien goods or services.
+We never give your details to third parties to use your data to enable them to provide you with information regarding Erik D.J. O'Brien and/or goods or services.
 
 ##Storing Your Personal Data
 
-In operating our website it may become necessary to transfer data that we collect from you to locations outside United States of America for processing and storing. By providing your personal data to us, you agree to this transfer, storing and processing. We do our utmost to ensure that all reasonable steps are taken to make sure that your data is stored securely.
+In operating our website it may become necessary to transfer data that we collect from you to locations outside the United States of America for processing and storing. By providing your personal data to us, you agree to this transfer, storing and processing. We do our utmost to ensure that all reasonable steps are taken to make sure that your data is stored securely.
 
 Unfortunately the sending of information via the internet is not totally secure and on occasion such information can be intercepted. We cannot guarantee the security of data that you choose to send us electronically, sending such information is entirely at your own risk.
 
@@ -68,4 +68,4 @@ On occasion we include links to third parties on this website. Where we provide 
 
 ##Contacting Us
 
-Please do not hesitate to contact us regarding any matter relating to this Privacy and Cookies Policy via our Contact Form.
+Please do not hesitate to contact us regarding any matter relating to this Privacy and Cookies Policy via our [Contact Form](../contact).

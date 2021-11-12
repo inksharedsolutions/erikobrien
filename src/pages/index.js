@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useRef} from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
+import { Helmet } from 'react-helmet';
 
 import Layout from "../components/layout"
 import Main from "../components/main"
@@ -25,6 +26,7 @@ const IndexPage = () => {
 
   return(
     <main className="body-wrapper" style={bGround()}>
+      <Helmet title="Home | Erik DJ. O'Brien" />
       <Layout>
           <Main childActive={(item)=>_pS(item) }/>
       </Layout>

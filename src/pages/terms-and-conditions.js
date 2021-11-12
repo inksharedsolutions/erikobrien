@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Parser from 'html-react-parser'
 import Footer from "../components/footer"
+import { Helmet } from 'react-helmet';
 
 const TAC = (props)=>{
 
@@ -24,6 +25,7 @@ const TAC = (props)=>{
         
     return(
         <>
+            <Helmet title="Terms and Conditions | Erik DJ. O'Brien" />
              <main className="body-wrapper" id="non-front-pages">
                 <Layout>
 

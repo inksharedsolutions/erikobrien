@@ -3,6 +3,7 @@ import Inputs from '../components/Inputs/inputs'
 import Layout from '../components/layout'
 import Nav from '../components/navigation'
 import Footer from "../components/footer"
+import { Helmet } from 'react-helmet';
 
 const Contact = (props) =>{
 
@@ -26,6 +27,7 @@ const Contact = (props) =>{
     
     return (
         <>
+            <Helmet title="Contact | Erik DJ. O'Brien" />
             <main className="body-wrapper" id="non-front-pages">
                 <Layout>
                     <div className="flex-container-fx">

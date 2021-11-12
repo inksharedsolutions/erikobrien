@@ -2,12 +2,14 @@ import React from 'react';
 import Layout from "../components/layout"
 import Footer from "../components/footer"
 import AuthorImg from '../../static/author/main_author.png'
+import { Helmet } from 'react-helmet';
 
 
 const ATA = (props) =>{
 
     return (
         <>
+            <Helmet title="About the Author | Erik DJ. O'Brien" />
             <main className="body-wrapper" id="non-front-pages">
                 <Layout>
                     <section className="author-section">
